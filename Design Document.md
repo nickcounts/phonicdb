@@ -115,8 +115,10 @@ Evaluator --> EvaluationResult: returns
 
 # 5. Deployment
 
-- Are there any architectural or DevOps changes needed (adding an extra microservice, changes in deployment pipelines, adding secrets to services, etc)?
-- Are there any migration scripts that need to be written?
+1. Need to determine web deployment option for **Wordpress**
+2. Can package as standalone Python tool for MacOS
+
+
 
 ## DTAP Street:
 
