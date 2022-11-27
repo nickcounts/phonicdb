@@ -65,7 +65,7 @@ They can see percent of the **Lexicons**, the number of words accessible from th
 1. The software will need to implement the following algorithms:
    1. Compute phonemes from a word
    2. Compute graphemes from a word
-2. 
+
 
 ## Design Patterns - Architecture
 
@@ -81,22 +81,31 @@ They can see percent of the **Lexicons**, the number of words accessible from th
    1. [flask](https://pypi.org/project/Flask/)
 
 
+### Relationship Diagrams
 
-- How will the software technically work? Are there particular algorithms or libraries that are important?
-- 
-- What will be the overall design Which classes are needed? What design patterns are used to model the concepts and relationships?
+```mermaid
+SomeClass -> AnotherClass
+```
 
-> Can draw class diagrams or data flow diagrams here to help illustrate
 
 # 4. Testing and Security
 
-- Are there specific coverage goals for the unit tests?
-- What kinds of tests are needed (unit, regression, end-to-end, etc)?
-- What security checks need to be in place to allow the software to ship?
+## Specific coverage goals for the unit tests
 
-## New Feature Concerns
-- If New Feature, are there any potential side-effects on other areas of the - application when adding this feature?
-- If New Feature, how does the feature impact the security of the software Is - there a need for a security audit before the feature ships?
+1. Cover encoding/decoding on a subset of known "tricky" words
+
+## What kinds of tests are needed (unit, regression, end-to-end, etc)?
+
+1. No regression testing required
+2. Some end-to-end/integration testing should be implemented
+   1. Do the classes properly interface?
+   2. How to dest this?
+
+## What security checks need to be in place to allow the software to ship
+
+1. Additional consideration must be given here before any web-deployment
+2. No security concerns are identified for stand-alone/desktop use
+
 
 
 # 5. Deployment
