@@ -1,0 +1,42 @@
+symbol  | ASCII | IPA   |		            | hex   | dec   | label and exemplification	
+
+A       |65     |ɑ      |script a	        |0251	|593	|open back unrounded, Cardinal 5, Eng. startØ
+{       |123    |æ      |ae ligature	    |00E6	|230	|near-open front unrounded, Eng. trapØ
+6       |54     |ɐ      |turned a	        |0250   |592    |open schwa, Ger. besserØ
+Q       |81     |ɒ      |turned script a	|0252   |594    |open back rounded, Eng. lotØ
+E       |69     |ɛ      |epsilon	        |025B   |603    |open-mid front unrounded, C3, Fr. mêmeØ
+@       |64     |ə      |turned e	        |0259   |601    |schwa, Eng. bananaØ
+3       |51     |ɜ      |rev. epsilon	    |025C   |604    |long mid central, Eng. nurseØ
+I       |73     |ɪ      |small cap I	    |026A   |618    |lax close front unrounded, Eng. kitØ
+O       |79     |ɔ      |turned c	        |0254   |596    |open-mid back rounded, Eng. thoughtØ
+2       |50     |ø      |o-slash	        |00F8	|248	|close-mid front rounded, Fr. deuxØ
+9       |57     |œ      |oe ligature	    |0153	|339	|open-mid front rounded, Fr. neufØ
+&       |38     |ɶ      |s.c. OE lig.	    |0276	|630	|open front roundedØ
+U       |85     |ʊ      |upsilon	        |028A	|650	|lax close back rounded, Eng. footØ
+}       |125    |ʉ      |barred u	        |0289	|649	|close central rounded, Swedish sjuØ
+V       |86     |ʌ      |turned v	        |028C	|652	|open-mid back unrounded, Eng. strutØ
+Y       |89     |ʏ      |small cap Y	    |028F	|655	|lax [y], Ger. hübschØ
+
+B       |66	    |β      |beta	            |03B2   |946    |voiced bilabial fricative, Sp. cabo
+C       |67	    |ç      |c-cedilla	        |00E7   |231    |voiceless palatal fricative, Ger. ich
+D       |68	    |ð      |eth	            |00F0   |240    |voiced dental fricative, Eng. then
+G       |71	    |ɣ      |gamma	            |0263   |611    |voiced velar fricative, Sp. fuego
+L       |76	    |ʎ      |turned y	        |028E   |654    |palatal lateral, It. famiglia
+J       |74	    |ɲ      |left-tail n	    |0272   |626    |palatal nasal, Sp. año
+N       |78	    |ŋ      |eng	            |014B   |331    |velar nasal, Eng. thing
+R       |82	    |ʁ      |inv. s.c. R	    |0281   |641    |vd. uvular fric. or trill, Fr. roi
+S       |83	    |ʃ      |esh	            |0283   |643    |voiceless palatoalveolar fricative, Eng. ship
+T       |84	    |θ      |theta	            |03B8   |952    |voiceless dental fricative, Eng. thin
+H       |72	    |ɥ      |turned h	        |0265   |613    |labial-palatal semivowel, Fr. huit
+Z       |90	    |ʒ      |ezh (yogh)	        |0292   |658    |vd. palatoalveolar fric., Eng. measure
+?	    |63	    |ʔ	    |dotless ?	        |0294   |660    |glottal stop, Ger. Verein, also Danish stød
+
+
+
+
+Length, stress and tone marks
+:	58	ː	length mark	02D0	720	length mark
+"	34	ˈ	vertical stroke	02C8	712	primary stress *
+%	37	ˌ	low vert. str.	02CC	716	secondary stress
+`	96		(see note 1)			falling tone
+'	39		(see note 1)			rising tone
