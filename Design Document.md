@@ -137,11 +137,25 @@ Evaluator --> EvaluationResult: returns
 
 # 7. Broader Context
 
-What are the limitations of the current design?
-What are possible extensions to think about for the future?
-Any other considerations?
+## What are the limitations of the current design?
 
-> Can include some "moonshot" ideas
+- Doesn't really handle shwaa. What to do about that pesky sound?
+- No plots or charts
+
+
+## What are possible extensions to think about for the future?
+
+1. Allow Reasearcher/Developer to see which Phoneme/Grapheme combination would be the "highest leverage" in unlocking the "inaccessible" Lexicon words at any point in a Program.
+2. Generate lists for evaluation based on current progress
+3. Generate nonsense words based on current progress
+4. Allow Researcher/Developer to map/manage custom phonetic symbols.
+   1. Define correspondance to IPA symbology, allows "translating" to other means of transcribing phonetics
+
+
+
+
+
+
 
 
 
