@@ -12,7 +12,7 @@ This is for teachers and the parents of students to evaluate the scope and seque
 
 ### What problem is it solving
 
-It is very difficult to tell what words are accessible to a student who only knows a subset of the English phoneme/grapheme combinations. This makes the evaluating "best path" for a teaching sequence extremely difficult. 
+It is very difficult to tell what words are accessible to a student who only knows a subset of the English Phoneme/Grapheme Combinations. This makes the evaluating "best path" for a teaching sequence extremely difficult. 
 
 It is also difficult to gauge "progress" towards literacy, assuming mastery of the phoneme/grapheme combinations they have been taught. How can you determine "coverage" of the language, and how do you define coverage? What constitutes 100% coverage? Are there different reasonbable standards?
 
@@ -20,7 +20,7 @@ It is also difficult to gauge "progress" towards literacy, assuming mastery of t
 
 The program will compute the phonetic/graphemic composition of a **Master Lexicon** (an exhaustive list of words in the English language). Subsets of this lexicon will be defined corresponding to different standards of "mastery" of English vocabulary (the 1000 most common words in speech, in the newspaper, in academic publishing, etc).
 
-A subset of the possible *phoneme/grapheme combinations* and *sight words* representing the student's progress through a reading/spelling program will be used to determine which of the words in each list are accessible. The results will be returned as percentages and as word lists.
+A subset of the possible *Phoneme/Grapheme Combinations* and *sight words* representing the student's progress through a reading/spelling Program will be used to determine which of the words in each list are accessible. The results will be returned as percentages and as word lists.
 
 ### What are the main concepts that are involved and how are they related?
 
@@ -30,24 +30,24 @@ A subset of the possible *phoneme/grapheme combinations* and *sight words* repre
 
 * **Sight Words** - a word that is explicitely taught to the student. This software will consider it to be known to the student but will not apply any inferences from the phonemic/graphemic content to other words in the Lexicons. (e.g. knowing **hat** and **the** doesn't mean you know **that** )
 
-* Phoneme/Grapheme combinations - these are groupings that represent the 
+* **Phoneme/Grapheme Combinations** - these are groupings that represent a sound to "spelling" relationship. This order is important (I think)
 
-* **Lessons** - a group of Phoneme/Grapheme combinations and sight words expected to be taught/learned at the same time.
+* **Lessons** - a group of Phoneme/Grapheme Combinations and sight words expected to be taught/learned at the same time.
 
-* **Program** - an ordered group of Lessons.
+* **Program** - an ordered group of Lessons. *Programs* are made of ordered *Lessons*, which are unordered groups of *Phoneme/Grapheme Combinations* and *Sight Words*.
 
 
 # 2. User Interface
 
 ## What are the main user stories (happy flows + alternative flows)?
 
-We see two primary user groups: the **Researcher/Developer** and the **Student/Parent**. The Researcher/Developer is someone studying or developing a reading/spelling program. The Student or Parent is someone who wants to understand how much progress they can expect at any point in a existing reading/spelling programn.
+We see two primary user groups: the **Researcher/Developer** and the **Evaluator**. The **Researcher/Developer** is someone studying or developing a reading/spelling program. The **Evaluator** is someone who wants to understand how much progress they can expect at any point in a existing reading/spelling programn.
 
-### Researcher/Developer
+### Researcher/Developer: Teacher or Researcher
 
-Creates a scope and sequence for evaluation by inputting phoneme/grapheme combinations in the order they are taught. These combinations can be grouyped in named lessons and these lessons can be reordered
+Creates a scope and sequence for evaluation by inputting Phoneme/Grapheme Combinations in the order they are taught. These combinations can be grouyped in named lessons and these lessons can be reordered
 
-### Parent or Student
+### Evaluator: Parent or Student
 
 Selects a reading/spelling program to exaluate. They can select the "coverage" metrics they care about and view the coverage as a function of time, individual lesson, or program completion. 
 
