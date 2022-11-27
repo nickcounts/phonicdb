@@ -56,11 +56,35 @@ They can see percent of the **Lexicons**, the number of words accessible from th
 
 # 3. Technical Specification
 
-- What technical details do developlers need to know to develop the software or new feature?
-- Are there new tables to add to the database? What fields?
+1. The software will not require SQL or other database access. 
+1. The software will rely on existing text/speech processing libraries for phonetic encoding/decoding. 
+    1. List some potential libraries
+    1. [eng-to-ipa](https://pypi.org/project/eng-to-ipa/#description)
+1. The software will maintain Lexicons as plain text files that users can edit and manage outside the software package
+1. The software will maintain Program/Lesson definitions as plain text files that users can edit and manage outside the software package
+1. The software will need to implement the following algorithms:
+   1. Compute phonemes from a word
+   2. Compute graphemes from a word
+2. 
+
+## Design Patterns - Architecture
+
+- What classes are needed?
+- Organization / relationships?
+
+
+## Third-party Software
+
+1. GUI Library
+   1. [pySimpleGUI](https://pypi.org/project/PySimpleGUI/)
+2. Web Library (for web deployment)
+   1. [flask](https://pypi.org/project/Flask/)
+
+
+
 - How will the software technically work? Are there particular algorithms or libraries that are important?
+- 
 - What will be the overall design Which classes are needed? What design patterns are used to model the concepts and relationships?
-- What third-party software is needed to build the software of feature?
 
 > Can draw class diagrams or data flow diagrams here to help illustrate
 
