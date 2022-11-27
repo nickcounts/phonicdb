@@ -84,7 +84,12 @@ They can see percent of the **Lexicons**, the number of words accessible from th
 ### Relationship Diagrams
 
 ```mermaid
-SomeClass -> AnotherClass
+classDiagram
+Lesson --> Program: contains
+Program --> Lesson: contains
+Evaluator --> Program: uses
+Evaluator --> Lexicon: uses
+Evaluator --> EvaluationResult: returns
 ```
 
 
